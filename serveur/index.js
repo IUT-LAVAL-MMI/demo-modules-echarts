@@ -1,7 +1,7 @@
 const express = require('express');
 const qs = require('qs');
 const cors = require('cors');
-const { generateRndAttempsFromStart, createRndAttempsFromStart } = require('./dataGeneration');
+const { generateRndAttempsFromStart } = require('./dataGeneration');
 
 const SERVER_HOST = '127.0.0.1';
 const SERVER_PORT = 5005;
